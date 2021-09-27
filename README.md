@@ -1,6 +1,4 @@
-"""
-MiniAlphaGo环境说明
-"""
+MiniAlphaGo环境说明：
 运行环境：windows10、python3、PyCharm Community Editor 2021.2.2
 依赖包环境：tkinter
 目录介绍：
@@ -12,7 +10,7 @@ Game/MiniAlphaGoBoard.py：MiniAlphaGo棋盘维护模块
 Game/MiniAlphaGoInit.py：软件初始化
 Game/MiniAlphaGoMgr.py；MiniAlphaGo的界面管理
 ./main.py：主程序入口
-""" 蒙特卡洛树搜索过程 """
+蒙特卡洛树搜索过程：
 步骤1（选择）：在选择阶段，需要从根节点，也就是要做决策的局面R出发向下选择出
 一个最急迫需要被拓展的节点N，局面R是是每一次迭代中第一个被检查的节点。对于被
 检查的局面而言，他可能有三种可能：
