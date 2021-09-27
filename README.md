@@ -1,4 +1,4 @@
-MiniAlphaGo环境说明：
+MiniAlphaGo环境说明：\n
 运行环境：windows10、python3、PyCharm Community Editor 2021.2.2
 依赖包环境：tkinter
 目录介绍：
