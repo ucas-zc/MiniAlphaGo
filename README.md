@@ -1,5 +1,5 @@
-MiniAlphaGo环境说明：\n
-运行环境：windows10、python3、PyCharm Community Editor 2021.2.2
+MiniAlphaGo环境说明：  
+运行环境：windows10、python3、PyCharm Community Editor 2021.2.2  
 依赖包环境：tkinter
 目录介绍：
 Algorithm/valid.pyx：关于落子位置的合法性检查以及棋子翻转等操作，需要进行联合
