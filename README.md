@@ -1,15 +1,14 @@
 MiniAlphaGo环境说明：  
-运行环境：windows10、python3、PyCharm Community Editor 2021.2.2  
-依赖包环境：tkinter  
-目录介绍：  
-Algorithm/valid.pyx：关于落子位置的合法性检查以及棋子翻转等操作，需要进行联合  
-编译，联合编译方法见Algorithm/README.md  
-Algorithm/SearchMgr：关于ai一方进行最佳落子位置的查找算法  
-Config/UiConfig.py：用户界面配置  
-Game/MiniAlphaGoBoard.py：MiniAlphaGo棋盘维护模块  
-Game/MiniAlphaGoInit.py：软件初始化  
-Game/MiniAlphaGoMgr.py；MiniAlphaGo的界面管理  
-./main.py：主程序入口  
+运行环境：Centos 7、C++、Qt、Qt creater 
+文件介绍：
+Project.pro 等同于Makefile文件
+main.cpp 主程序入口
+CalMachine.h/CalMachine.cpp 棋盘操作操作模块
+Mct.h/Mct.cpp 蒙特卡洛树模块
+MiniAlphaGoBoard.h/MiniAlphaGoBoard.cpp 棋盘管理模块
+MiniAlphaGoMgr.h/MiniAlphaGoMgr.cpp 游戏管理模块
+MiniAlphaGoUi.h/MiniAlphaGoUi.cpp 页面模块
+SearchMgr.h/SearchMgr.cpp 搜索管理模块 
 蒙特卡洛树搜索过程：  
 步骤1（选择）：在选择阶段，需要从根节点，也就是要做决策的局面R出发向下选择出  
 一个最急迫需要被拓展的节点N，局面R是是每一次迭代中第一个被检查的节点。对于被  
